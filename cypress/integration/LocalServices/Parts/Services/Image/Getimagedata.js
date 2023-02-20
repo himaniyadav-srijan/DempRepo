@@ -15,7 +15,6 @@ describe('Test image data',()=>{
           expect(response.status).to.eq(200)
           expect(response.body.data.image).to.not.be.null;
 
-
         })
     })
 

@@ -19,8 +19,6 @@ it('First Health Api',()=>{
     .then((response) => {
         expect(response.status).to.eq(200)
         expect(response.body).to.have.property("meta","data")
-
-    
     
       })
     

@@ -7,9 +7,10 @@ module.exports = defineConfig({
     },
     baseUrl: "https://yamaha-api-poc-development.devops-t3.com/",
   
-    specPattern: 'cypress/integration/Local Services/Health//*.js',
-    specPattern: 'cypress/integration/Local Services/cart//*.js',
-    specPattern: 'cypress/integration/Local Services/Parts/Services/Image'
+    specPattern: 'cypress/integration/LocalServices/Health//*.js',
+    specPattern: 'cypress/integration/LocalServices/cart//*.js',
+    specPattern: 'cypress/integration/LocalServices/Parts/Services/Image//*.js'
+   
     
   
    

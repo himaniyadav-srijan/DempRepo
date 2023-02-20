@@ -13,7 +13,6 @@ it('First Health Api',()=>{
         url: '${baseUrl}/v1.0.0/health/health/',
         method: 'GET'
     
-    
 })
 
     .then((response) => {

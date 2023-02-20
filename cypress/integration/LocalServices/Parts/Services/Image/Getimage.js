@@ -13,7 +13,7 @@ describe('get image test',()=>{
     }).then((respnse)=>{
       expect(respnse.status).to.eq(200)
       expect(respnse.body.data.image).to.not.be.null;
-      //expect($img[0].naturalWidth).to.be.greaterThan(0);
+      expect($img[0].naturalWidth).to.be.greaterThan(0);
 
 
     })

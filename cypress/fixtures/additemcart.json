@@ -1,0 +1,20 @@
+{
+    "items":[
+        {
+            "quantity":1,
+            "productId":"Zuma50fxRearLuggageRack",
+            "catRefId":"1CD-F48D0-V0-00",
+            "priceGroupId":"defaultPriceGroup"
+        },
+        {
+            "quantity":2,
+            "productId":"YamahaGenuineFrontForkSealKit",
+            "catRefId":"1C3-W003B-00-00"
+        },
+        {
+            "quantity":1,
+            "productId":"TallWindshield",
+            "catRefId":"SMA-8JP96-30-00"
+        }
+    ]
+}

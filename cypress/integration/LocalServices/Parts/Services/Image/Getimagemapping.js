@@ -9,6 +9,7 @@ describe('image mapping test',()=>{
 
         url: '${baseUrl}/v1.0.0/parts/c/image/mapping/25438570',
         method: 'GET'
+        
      }).then((response)=>{
 
         expect(response.status).to.be.eq(200)

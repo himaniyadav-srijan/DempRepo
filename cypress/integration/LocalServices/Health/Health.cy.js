@@ -21,7 +21,7 @@ it('First Health Api',()=>{
         expect(response.body.meta.version).to.eq('v1.0.0')
         expect(response.body.data.name).to.not.be.null
         expect(response.body.data.connected).to.eq(true)
-        //expect(response.body.data.name).to.eq("ready")
+        ////expect(response.body.data.name).to.eq("ready")
 
     
     

@@ -14,6 +14,10 @@ describe('Test image data',()=>{
 
           expect(response.status).to.eq(200)
           expect(response.body.data.image).to.not.be.null;
+    
+          //expect(response.body.data.items.name).to.eq("FENDER, FRONT (YAMAHA BLACK)")
+           //expect(response.body.data).has.property("items","label")
+          // expect(response.body.data.items).has.property('name','FENDER, FRONT (YAMAHA BLACK)')
 
         })
     })

@@ -14,6 +14,9 @@ describe('image mapping test',()=>{
 
         expect(response.status).to.be.eq(200)
         expect(response.body.data).to.not.be.null
+        cy.log(response.body.data)
+        //expect(response.body.data).has.property('label','2')
+        //expect(response.body.data).to.have.all.keys('label', 'x', 'y');
 
      })
 
